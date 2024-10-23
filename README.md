@@ -47,7 +47,7 @@ HTTP状态码0表示成功响应，并可能包含内容。如果响应含有内
 | volume            | LONG   |  NO  |      数量
 | price  | STRING |  NO  |             价格 |
 | side   | STRING |  YES  |                      BUY、SELL                          |
-| type | INT   |  YES  |  | 1、limit,2、market,3、ioc,4、fok,5、post_only
+| type | INT   |  YES  |  | 1、limit,2、market,3、ioc,4、fok,5、post_only ｜
 > 返回数据:
 ```json
 {
@@ -67,7 +67,7 @@ HTTP状态码0表示成功响应，并可能包含内容。如果响应含有内
 | 参数名                | 参数类型   | 是否必须 |                                              描述                                               |
 |:-------------------|:-------|:----:|:---------------------------------------------------------------------------------------------:|
 | symbol             | STRING |  NO  |                                              币对                                               |
-| order_id |  Long  |  YES  |  | 订单id
+| order_id |  Long  |  YES  |  | 订单id ｜
 
 > 返回数据:
 ```json
