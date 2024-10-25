@@ -462,7 +462,7 @@ params = {
     "volume": "100",
     "price": "40000",
     "api_key": "my_api_key",
-    "timestamp": "1627888987000"
+    "time": "1627888987000"
 }
 secret_key = "my_secret_key"
 
