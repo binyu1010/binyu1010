@@ -108,7 +108,7 @@ HTTP状态码0表示成功响应，并可能包含内容。如果响应含有内
 |---------|----------|:--------:|------------------------------------------------------------|
 | volume  | STRING   |   YES    | 订单的数量，表示买卖的数量。                                    |
 | side    | STRING   |   YES    | 买卖方向，支持 `BUY` 和 `SELL`。                               |
-| type    | STRING   |   YES    | 订单类型，如 `LIMIT` 或 `MARKET` 等订单类型。                   |
+| type    | STRING   |   YES    | 1-limit,2-market,3-ioc,4-fok,5-post_only                   |
 | price   | STRING   |   NO     | 订单价格，仅适用于限价单。市价单不需要填写此参数。                  |
 
 
